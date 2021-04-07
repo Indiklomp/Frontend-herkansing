@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservering</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<Header>
+    <img id="logo" src="./img/logo.png">
+    <nav>
+        <li class="button"><a href="./Home.html"><strong> HOME </strong></a></li>
+        <li class="button"><a href="./about.html"><strong> ABOUT </strong></a></li>
+        <li class="button"><a href="./login.php"><strong> ADMIN LOGIN </strong></a></li>
+    </nav>
+</Header>
+<form id="contact-form" method="post" action="create.php">
+    <main class="mobile">
+        <div id="titel">
+            <h1> Would you like to make an appointment ?</h1>
+        </div>
+        <div id="imgholder1">
+            <img src="./img/2.png">
+        </div>
+        <div id="content1">
+            <input type="text" name="firstName" class="form-control" placeholder="First name" required>
+            <input type="text" name="lastName" class="form-control" placeholder="Last name" required>
+            <input type="text" name="emailAdress" class="form-control" placeholder="Your Email" required>
+            <input type="text" name="phoneNumber" class="form-control" placeholder="Phone number">
+            <input type="text" name="message" class="form-control" placeholder="Message">
+        </div>
+        <div id="content2">
+            <input id="calendar" type="date" name="date" class="form-control" id="date" required>
+            <select id="time" name="time" required>
+                <option value="">Pick your time</option>
+                <option value="10:00-10:15">10:00-10:15</option>
+                <option value="14:00-14:15">14:00-14:15</option>
+                <option value="20:00-20:15">20:00-20:15</option>
+            </select>
+            <input id="submit" type="submit" name="submit" value="SUBMIT APPOINTMENT">
+        </div>
+        <div id="imgholder2">
+            <img src="./img/3.png">
+        </div>
+    </main>
+</form>
+<footer>
+    <li class="site-footer__linklist-item h6">
+        <a href="https://your-secondhand.com/search"><strong>SEARCH FOR ITEMS</strong></a>
+    </li>
+    <li class="site-footer__linklist-item h6">
+        <a href="https://your-secondhand.com/pages/return-of-items"><strong>RETURN OF ITEMS</strong></a>
+    </li>
+    <li class="site-footer__linklist-item h6">
+        <a href="https://your-secondhand.com/blogs/nieuws"><strong>NEWS</strong></a>
+    </li>
+</footer>
+<script src="./myscript.js"></script>
+</body>
+</html>
