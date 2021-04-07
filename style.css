@@ -122,29 +122,19 @@ section {
     grid-template-rows:repeat(3, minmax(150px, auto));
 }
 
-#titel {
+#titel, #imgholder1  {
     width: 50%;
     grid-row: 1;
     padding-top: 50px;
     justify-self: center;
 }
 
-#imgholder1 {
-    grid-row: 1;
-    justify-self: center;
-}
-
-#content1 {
+#content1, #content2{
     width: 50%;
     grid-row: 2;
     justify-self: center;
 }
 
-#content2 {
-    width: 50%;
-    grid-row: 2;
-    justify-self: center;
-}
 
 #imgholder2 {
     grid-column: span 2;
@@ -163,6 +153,7 @@ img:hover {
     transform: scaleX(-1);
 }
 
+/*input velden*/
 input, #time, #calendar {
     font-size: 1.4rem;
     line-height: 1.71429;
@@ -180,7 +171,7 @@ input, #time, #calendar {
 #time, #calendar {
     margin-bottom: 100px;
 }
-
+/*media query's*/
 @media only screen and (max-width: 1065px) {
     .mobile {
         background-image: url("./img/background3.jpg");
