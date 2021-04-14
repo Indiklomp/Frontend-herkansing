@@ -115,7 +115,7 @@ section {
     font-size: 1.2em;
 }
 
-.mobile {
+main {
     background-color: #EAE3E0;
     display: grid;
     grid-template-columns:1fr 1fr;
@@ -173,7 +173,7 @@ input, #time, #calendar {
 }
 /*media query's*/
 @media only screen and (max-width: 1065px) {
-    .mobile {
+    main {
         background-image: url("./img/background3.jpg");
         color: #cfafaf;
         -webkit-background-size: cover;
